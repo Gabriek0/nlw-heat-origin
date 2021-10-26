@@ -5,8 +5,6 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
 </p>
 
 </br>
@@ -22,3 +20,9 @@ O projeto juntamente com as animações foram desenvolvidas com as seguintes tec
 - CSS
 - JavaScript
 - [Vanilla-tilt](https://micku7zu.github.io/vanilla-tilt.js/index.html)
+
+</br>
+
+## 💻 Projeto
+
+O Crachá virtual DoWhile foi desenvolvido durante a semana Next Level Week Heat da Rocketseat, como um pré aquecimento para o evento DoWhile.
