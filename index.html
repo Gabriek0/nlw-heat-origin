@@ -13,38 +13,46 @@
 </head>
 
 <body>
-    <main>
+    <span>
+        <img src="./images/faixa.svg" alt="">
+    </span>
+    <span>
+        <img src="./images/quebra.svg" alt="">
+    </span>
+
+    <main data-tilt="">
         <div class="container">
             <div class="avatar">
                 <span>
-                    <img src="./images/selo.svg" alt="Selo-rocketseat">
+                    <img class="rocket-stamp" src="./images/selo.svg" alt="Selo-rocketseat">
                 </span>
                 <img id="userAvatar" src="" alt="Logo-user">
             </div>
             <h1 id="userName"></h1>
             <a id="userLink" href="" target="_blank">
                 <img src="./images/github.svg" alt="">
-                <span id="userLogin"></span></a>
+                <div id="userLogin"></div>
+            </a>
 
             <p id="userBio">A front-end development student. Seeking to evolve more and more</p>
 
             <ul id="socialLinks">
-                <li class="youtube">
+                <li class="youtube icons">
                     <a href="" target="_blank">
                         <img src="./images/youtube.svg" alt="youtube-icon">
                     </a>
                 </li>
-                <li class="instagram">
+                <li class="instagram icons">
                     <a href="" target="_blank">
                         <img src="./images/instagram.svg" alt="instagram-icon">
                     </a>
                 </li>
-                <li class="facebook">
+                <li class="facebook icons">
                     <a href="" target="_blank">
                         <img src="./images/facebook.svg" alt="facebook-icon">
                     </a>
                 </li>
-                <li class="twitter">
+                <li class="twitter icons">
                     <a href="" target="_blank">
                         <img src="./images/twitter.svg" alt="twitter-icon">
                     </a>
@@ -54,6 +62,7 @@
     </main>
 
     <script src="./main.js"></script>
+    <script src="./vanilla-tilt.js"></script>
 </body>
 
 </html>
